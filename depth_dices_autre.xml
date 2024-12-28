@@ -1,0 +1,187 @@
+<?xml version="1.0" ?>
+<scene>
+	<integrator type="path_mis"/>
+	<sampler type="independent">
+		<integer name="sampleCount" value="2500"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="39.59775192067671"/>
+		<float name="lensRadius" value="0.005"/> <!-- Radio de la apertura -->
+   		<float name="focalDistance" value="0.374"/> <!--Distancia focal-->
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="1000.0"/>
+		<integer name="width" value="1920"/>
+		<integer name="height" value="1080"/>
+		<transform name="toWorld">
+			<scale value="-1.000000 1.000000 -1.000000"/>
+			<matrix value="-0.31594282388687134,-0.3723251223564148,0.8726708292961121,0.36782753467559814,0.9481551051139832,-0.15724016726016998,0.2761845886707306,0.12267039716243744,0.03438844159245491,0.9146856069564819,0.4027007818222046,0.18465057015419006,0.0,0.0,0.0,1.0"/>
+		</transform>
+	</camera>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice4_Material.001.obj"/>
+		<bsdf type="diffuse" name="Material.001">
+			<color name="baseColor" value="1.000000,1.000000,1.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.519685"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice4_Numbers.obj"/>
+		<bsdf type="diffuse" name="Numbers">
+			<color name="albedo" value="0.630 0.065 0.05"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.500000"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice2_Material.002.obj"/>
+		<bsdf type="diffuse" name="Material.002">
+			<color name="baseColor" value="1.000000,1.000000,1.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.519685"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice2_Numbers.001.obj"/>
+		<bsdf type="diffuse" name="Numbers.001">
+			<color name="baseColor" value="0.000000,0.000000,0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.500000"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice3_Material.003.obj"/>
+		<bsdf type="diffuse" name="Material.003">
+			<color name="baseColor" value="1.000000,1.000000,1.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.519685"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice3_Numbers.002.obj"/>
+		<bsdf type="diffuse" name="Numbers.002">
+			<color name="baseColor" value="0.000000,0.000000,0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.500000"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice1_Material.004.obj"/>
+		<bsdf type="diffuse" name="Material.004">
+			<color name="baseColor" value="1.000000,1.000000,1.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.519685"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Dice1_Numbers.003.obj"/>
+		<bsdf type="diffuse" name="Numbers.003">
+			<color name="baseColor" value="0.000000,0.000000,0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.500000"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+		</mesh>
+			<mesh type="obj">
+			    <string name="filename" value="meshes/table_Default_OBJ.001.obj"/>
+			    <bsdf type="diffuse" name="table">
+				<texture name="albedo" type="wood">
+				    <color name="baseColor" value="0.6, 0.3, 0.1"/>
+				    <color name="grainColor" value="0.4, 0.2, 0.07"/>
+				    <float name="scale" value="50"/>
+				    <float name="turbulence" value="2500"/>
+				    <float name="ringScale" value="0.1"/>
+				</texture>
+				</bsdf>
+			</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/Window.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.75,0.75,0.75"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/Plane_Material.obj"/>
+		<bsdf type="diffuse" name="Material">
+			<color name="baseColor" value="0.800000,0.800000,0.800000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="subsurface" value="0.000000"/>
+			<float name="specular" value="0.500000"/>
+			<float name="specularTint" value="0.000000"/>
+			<float name="roughness" value="0.500000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheenTint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoatGloss" value="0.030000"/>
+		</bsdf>
+		<emitter type="project_area">
+        	<color name="radiance" value="0.5, 0.5, 0.5"/>
+    	</emitter>
+	</mesh>
+</scene>
+
